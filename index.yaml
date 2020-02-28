@@ -3,7 +3,17 @@ entries:
   nodejs:
   - apiVersion: v2
     appVersion: 12.16.1
-    created: "2020-02-28T12:51:36.197977+03:00"
+    created: "2020-02-28T13:15:33.741307+03:00"
+    description: Automatic Solutions nodejs helm chart for k8s
+    digest: 8d8b99eb3e1fd86cdea9a0a52eb37d75c29e41482e04eb0bd398e6bb963c4d8b
+    name: nodejs
+    type: application
+    urls:
+    - nodejs-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 12.16.1
+    created: "2020-02-28T13:15:33.740184+03:00"
     description: Automatic Solutions nodejs helm chart for k8s
     digest: 5cd5a1af71673d4d7c696c90247caf6c0449459847f4adc9a25a575595e83774
     name: nodejs
@@ -14,7 +24,17 @@ entries:
   wordpress:
   - apiVersion: v2
     appVersion: 5.3.2
-    created: "2020-02-28T12:51:36.202194+03:00"
+    created: "2020-02-28T13:15:33.777448+03:00"
+    description: Automatic Solutions wordpress helm chart for k8s
+    digest: be4280633006c0b9266fb498c67e961b82f33860edc2d2b72e78d03d6f3c4e58
+    name: wordpress
+    type: application
+    urls:
+    - wordpress-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 5.3.2
+    created: "2020-02-28T13:15:33.743515+03:00"
     description: Automatic Solutions wordpress helm chart for k8s
     digest: 6da83bae9831d63850877cc729a89b6f64bb5b6f88c47796830e708348170827
     name: wordpress
@@ -24,7 +44,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 5.3.2
-    created: "2020-02-28T12:51:36.200673+03:00"
+    created: "2020-02-28T13:15:33.742478+03:00"
     description: Automatic Solutions wordpress helm chart for k8s
     digest: 836e6bbfaeb81bf6e30c892df6dc4393b15202a29a8626799fb4cd111ff70d10
     name: wordpress
@@ -32,4 +52,4 @@ entries:
     urls:
     - wordpress-0.1.0.tgz
     version: 0.1.0
-generated: "2020-02-28T12:51:36.197113+03:00"
+generated: "2020-02-28T13:15:33.739287+03:00"
