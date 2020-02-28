@@ -1,0 +1,35 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: {{ include "wordpress.fullname" . }}
+  labels:
+  {{- include "wordpress.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": pre-install
+    "helm.sh/hook-weight": "5"
+    "helm.sh/hook-delete-policy": hook-succeeded,hook-failed
+spec:
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: {{ include "wordpress.name" . }}
+        app.kubernetes.io/instance: {{ .Release.Name }}
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: pre-install-job
+          image: docker.io/bitnami/mariadb:10.3.18-debian-9-r0
+          command: ['sh', '-c', 'mysql -h mariadb -uroot -p$(echo $PASSWORD) < /docker-entrypoint-initdb.d/initdb.sql']
+          env:
+            - name: PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: mariadb
+                  key: mariadb-root-password
+          volumeMounts:
+            - name: "{{ include "wordpress.fullname" . }}-init-volume"
+              mountPath: /docker-entrypoint-initdb.d
+      volumes:
+        - name: "{{ include "wordpress.fullname" . }}-init-volume"
+          configMap:
+            name: {{ include "wordpress.fullname" . }}
