@@ -1,0 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 5.3.2
+description: Automatic Solutions wordpress helm chart for k8s
+name: wordpress
+type: application
+version: 0.2.0
+
+...
+files:
+  wordpress-0.2.0.tgz: sha256:151c5836766fb12d54dfadbb43f50ec2ac1216e73b1b32575e7d3829164fd748
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJeWQnOCRC2YYEUj1N6ggAA8eoQAGDP8xyrHDMKUa2rQB3ReuCA
+tolmepyGwNoM64TWVol5H0WMofNHHoz/R2Pn6UnjhrxDWBhhmqC2SxklD96qr47t
+1rEegFHLiL6w2YxKadl80mZSBjK+JX72nIvFv7Hpntg1rX3PY8M0Xus4CihGFjOH
+mNp5jUIf9EoY7Qa4pbYuUGNlj8qRaBGqTB1t3KraLMwuiZ5jIEwZtpytLDjMfJnU
+GTm2z3ZZc7lc67CrCiOPpftDala7aW6QLxXaD/tC6Px/hm3n1fNjd20R0NKYSxCn
+bJHjoTErwl24QE6bxa67Jdn6ZroQxWl2X9Z1NbIEI3GGhh+mss4D6PCm/wf2giDu
+tqTE3aEBab0GtqqnQ3R6KsBRnPm5APGXT2hhFVBmOzaRe95VgTWG6ptNqa9QZmCF
+K/Bz3nu+ycJpoz3jBF/JO9PElTxyfTCPLZOf/45/UNnvfYkEeUL3aB75+lkAz2Pe
+ZssG/nBM+odHMULpWzxzAwwbBdF4qrmYGSFjDZFEeboFy4TIgUba9cwllNtIkzXo
+aLGZZaTbTaeywLNORxdeeEC01oWhkUyiluaXUERt5Gfvdsu/m4C678LlC8hO7ky+
+SUHMU8l+/CAFv8QmB0kYC5Bc4+cpafl93eHzmYPHOfuDKvfYhAj+yoZirxNs4Gku
+c4EMp5oIWPkIAvoh26gi
+=ExSv
+-----END PGP SIGNATURE-----
