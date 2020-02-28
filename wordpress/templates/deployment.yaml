@@ -36,7 +36,7 @@ spec:
             - name: DB_PASSWORD
               value: {{ include "wordpress.fullname" . | quote }}
           volumeMounts:
-            - name: {{ include "wordpress.fullname" . }}-volume
+            - name: "{{ include "wordpress.fullname" . }}-volume"
               mountPath: "/var/www/html/wp-content/uploads"
           livenessProbe:
             httpGet:

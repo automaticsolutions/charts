@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   registry: registry.digitalocean.com/automaticsolutions
-  repository: automaticsolutions
+  repository: wordpress
   tag: latest
   pullPolicy: IfNotPresent
   pullSecrets: []
