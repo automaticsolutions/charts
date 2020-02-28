@@ -26,10 +26,6 @@ ingress:
     kubernetes.io/ingress.class: traefik
   host: automaticsolutions.ru
 
-pvc:
-  storage: 1Gi
-  storageClassName: csi-s3
-
 resources:
   requests:
     memory: 512Mi

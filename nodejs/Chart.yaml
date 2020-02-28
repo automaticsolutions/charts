@@ -4,6 +4,6 @@ description: Automatic Solutions nodejs helm chart for k8s
 
 type: application
 
-version: 0.1.1
+version: 0.1.2
 
 appVersion: 12.16.1
