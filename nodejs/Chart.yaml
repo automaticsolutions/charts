@@ -1,0 +1,9 @@
+apiVersion: v2
+name: nodejs
+description: Automatic Solutions nodejs helm chart for k8s
+
+type: application
+
+version: 0.1.0
+
+appVersion: 12.16.1
