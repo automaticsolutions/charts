@@ -24,6 +24,8 @@ ingress:
     kubernetes.io/ingress.class: traefik
   host: automaticsolutions.ru
 
+envinronments: []
+
 resources: {}
 
 nodeSelector: {}

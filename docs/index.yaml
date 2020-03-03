@@ -3,7 +3,17 @@ entries:
   nodejs:
   - apiVersion: v2
     appVersion: 12.16.1
-    created: "2020-03-03T11:51:30.240611+03:00"
+    created: "2020-03-03T15:21:15.242432+03:00"
+    description: Automatic Solutions nodejs helm chart for k8s
+    digest: d15de48caaba262fa848f70dac6160b491ac0eb094a61565fafa30d64f735533
+    name: nodejs
+    type: application
+    urls:
+    - nodejs-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    appVersion: 12.16.1
+    created: "2020-03-03T15:21:15.242034+03:00"
     description: Automatic Solutions nodejs helm chart for k8s
     digest: 76ffa2f57d7a5cd4bc7a2d083928335bb8233cc765c4f49538f0102ecd223936
     name: nodejs
@@ -13,7 +23,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 12.16.1
-    created: "2020-03-03T11:51:30.239979+03:00"
+    created: "2020-03-03T15:21:15.24137+03:00"
     description: Automatic Solutions nodejs helm chart for k8s
     digest: 1bf5d5283407bcb7fe2f609617b60102e8bd251a41d88046674ff0cdae2b2031
     name: nodejs
@@ -23,7 +33,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 12.16.1
-    created: "2020-03-03T11:51:30.236957+03:00"
+    created: "2020-03-03T15:21:15.240672+03:00"
     description: Automatic Solutions nodejs helm chart for k8s
     digest: aebb74655583af6e1299219c1d4f473227d804848a5bfe4182b5df904c7d964a
     name: nodejs
@@ -33,7 +43,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 12.16.1
-    created: "2020-03-03T11:51:30.2363+03:00"
+    created: "2020-03-03T15:21:15.239984+03:00"
     description: Automatic Solutions nodejs helm chart for k8s
     digest: c389965a55c8b12606a1959da29e420f2f5e4453b372e1f3f4ba901ff365c2cc
     name: nodejs
@@ -43,7 +53,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 12.16.1
-    created: "2020-03-03T11:51:30.235639+03:00"
+    created: "2020-03-03T15:21:15.239099+03:00"
     description: Automatic Solutions nodejs helm chart for k8s
     digest: 8d8b99eb3e1fd86cdea9a0a52eb37d75c29e41482e04eb0bd398e6bb963c4d8b
     name: nodejs
@@ -53,7 +63,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 12.16.1
-    created: "2020-03-03T11:51:30.234837+03:00"
+    created: "2020-03-03T15:21:15.238243+03:00"
     description: Automatic Solutions nodejs helm chart for k8s
     digest: 5cd5a1af71673d4d7c696c90247caf6c0449459847f4adc9a25a575595e83774
     name: nodejs
@@ -64,9 +74,9 @@ entries:
   wordpress:
   - apiVersion: v2
     appVersion: 5.3.2
-    created: "2020-03-03T11:51:30.244921+03:00"
+    created: "2020-03-03T15:21:15.250469+03:00"
     description: Automatic Solutions wordpress helm chart for k8s
-    digest: d0d6ea39cc75e9769c88736eafb7c07efe793a6f4ee6e83079de8ad4d6a91da4
+    digest: 44b49981811135fc6048dc8cdb259a321d9867704e40c601b85af39434fa46ff
     name: wordpress
     type: application
     urls:
@@ -74,7 +84,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 5.3.2
-    created: "2020-03-03T11:51:30.244111+03:00"
+    created: "2020-03-03T15:21:15.249135+03:00"
     description: Automatic Solutions wordpress helm chart for k8s
     digest: 151c5836766fb12d54dfadbb43f50ec2ac1216e73b1b32575e7d3829164fd748
     name: wordpress
@@ -84,7 +94,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 5.3.2
-    created: "2020-03-03T11:51:30.243394+03:00"
+    created: "2020-03-03T15:21:15.24603+03:00"
     description: Automatic Solutions wordpress helm chart for k8s
     digest: be4280633006c0b9266fb498c67e961b82f33860edc2d2b72e78d03d6f3c4e58
     name: wordpress
@@ -94,7 +104,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 5.3.2
-    created: "2020-03-03T11:51:30.242672+03:00"
+    created: "2020-03-03T15:21:15.245293+03:00"
     description: Automatic Solutions wordpress helm chart for k8s
     digest: 6da83bae9831d63850877cc729a89b6f64bb5b6f88c47796830e708348170827
     name: wordpress
@@ -104,7 +114,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 5.3.2
-    created: "2020-03-03T11:51:30.24181+03:00"
+    created: "2020-03-03T15:21:15.244591+03:00"
     description: Automatic Solutions wordpress helm chart for k8s
     digest: 836e6bbfaeb81bf6e30c892df6dc4393b15202a29a8626799fb4cd111ff70d10
     name: wordpress
@@ -112,4 +122,4 @@ entries:
     urls:
     - wordpress-0.1.0.tgz
     version: 0.1.0
-generated: "2020-03-03T11:51:30.233415+03:00"
+generated: "2020-03-03T15:21:15.237371+03:00"
