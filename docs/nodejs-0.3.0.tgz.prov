@@ -1,0 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 12.16.1
+description: Automatic Solutions nodejs helm chart for k8s
+name: nodejs
+type: application
+version: 0.3.0
+
+...
+files:
+  nodejs-0.3.0.tgz: sha256:76ffa2f57d7a5cd4bc7a2d083928335bb8233cc765c4f49538f0102ecd223936
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJeXhqFCRC2YYEUj1N6ggAAxFoQAF8iJc7DrJrZl11vK2prMlHV
+Ksm1BjInsNts3QolZv5raKCibq8xrqkdu9CVnVKCnmdhRXIkHb27SyYQGbyr4Ca5
+MoRCDQlec9NPl+RI+wg45xl3JX0UoJVC0+smS7uC7qarGtvQy8BnGhPZrRgQ+nGf
+8RyNwpGsRW/xXEEjA0GPLAcdL1aJePIjRFTwxTonUrzVr/tUhUVyxXT37klGvu+z
+s6Vi/eQBjIBzVGQD8LAESvFkSvXdZCEI2WfTyy6fbJiNVIXqGMJlFcjYP6gwgj/C
+Jk41uQWb6JKaElDdOxcpjAb593CXWq9Y7us/QVWn2a1TTM9a/VoOAvdHdcYVXiVr
+1+3ea3uroi7+eOyfcC7yIyWLVAwOskffZgivvv7Rd3NCkbP//+ZvYDS6gWfrxQhT
+RN/sS/4X0NNgosSG9JmCnZc4jNUEStklmpge99zDUxmFwFTGlXdnDFGnjSCwG9ha
+WPoZogsA43n6RNP4YquvBhK7SjARIiY2fszX1UizznpV2KrdIk0FwqPeF0o6oiDJ
+E+6gkQoHehKeZzWrnPvhyHIHN80zZWOjdOyvWlq9MK0hCP0swVnX67Yl0t6K86J3
+POPAld9H53rJvuPN4dv6ptoDTkijs+r9FFdDyxG9cgYbv/FhMiz6aQX+qUOMmGxr
+JOG3VKD4Tdeoqhv0Z65N
+=+TP6
+-----END PGP SIGNATURE-----

@@ -24,10 +24,7 @@ ingress:
     kubernetes.io/ingress.class: traefik
   host: automaticsolutions.ru
 
-resources:
-  requests:
-    memory: 512Mi
-    cpu: 300m
+resources: {}
 
 nodeSelector: {}
 
