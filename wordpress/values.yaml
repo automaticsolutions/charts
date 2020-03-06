@@ -28,15 +28,14 @@ pvc:
   storage: 1Gi
   storageClassName: csi-s3
 
-envinronments:
-  - name: MAIL_HOST
-    value: ''
-  - name: MAIL_PORT
-    value: ''
-  - name: MAIL_USER
-    value: ''
-  - name: MAIL_PASSWORD
-    value: ''
+smtp:
+  host: ''
+  port: ''
+  user: ''
+  pass: ''
+  from: ''
+  name: ''
+  debug: ''
 
 resources: {}
 

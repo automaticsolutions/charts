@@ -35,6 +35,24 @@ spec:
               value: {{ include "wordpress.fullname" . | quote }}
             - name: DB_PASSWORD
               value: {{ include "wordpress.fullname" . | quote }}
+            - name: SMTP_USER
+              value: {{ .Values.smtp.user | quote }}
+            - name: SMTP_PASS
+              value: {{ .Values.smtp.pass | quote }}
+            - name: SMTP_HOST
+              value: {{ .Values.smtp.host | quote }}
+            - name: SMTP_PORT
+              value: {{ .Values.smtp.port | quote }}
+            - name: SMTP_FROM
+              value: {{ .Values.smtp.from | quote }}
+            - name: SMTP_NAME
+              value: {{ .Values.smtp.name | quote }}
+            - name: SMTP_SECURE
+              value: "tls"
+            - name: SMTP_AUTH
+              value: 'true'
+            - name: SMTP_DEBUG
+              value: {{ .Values.smtp.debug | quote }}
           volumeMounts:
             - name: "{{ include "wordpress.fullname" . }}-volume"
               mountPath: "/var/www/html/wp-content/uploads"
