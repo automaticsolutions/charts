@@ -28,10 +28,17 @@ pvc:
   storage: 1Gi
   storageClassName: csi-s3
 
-resources:
-  requests:
-    memory: 512Mi
-    cpu: 300m
+envinronments:
+  - name: MAIL_HOST
+    value: ''
+  - name: MAIL_PORT
+    value: ''
+  - name: MAIL_USER
+    value: ''
+  - name: MAIL_PASSWORD
+    value: ''
+
+resources: {}
 
 nodeSelector: {}
 
