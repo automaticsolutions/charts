@@ -28,7 +28,7 @@ spec:
               protocol: TCP
           env:
             - name: DB_HOST
-              value: "mariadb.default.svc.cluster.local"
+              value: {{ .Values.db.host | quote }}
             - name: DB_NAME
               value: {{ include "wordpress.fullname" . | quote }}
             - name: DB_USER
@@ -75,17 +75,21 @@ spec:
               path: /wp-login.php
               port: http
           {{- end }}
-          {{- with .Values.resources }}
           volumeMounts:
             - name: "{{ include "wordpress.fullname" . }}-volume"
               mountPath: "/var/www/html/wp-content/uploads"
+          {{- with .Values.resources }}
           resources:
             {{- toYaml . | nindent 12 }}
           {{- end }}
       volumes:
         - name: {{ include "wordpress.fullname" . }}-volume
           persistentVolumeClaim:
+            {{- if eq .Values.pvc.existingClaim "" }}
             claimName: {{ include "wordpress.fullname" . }}
+            {{- else }}
+            claimName: {{ .Values.pvc.existingClaim }}
+            {{- end}}
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}

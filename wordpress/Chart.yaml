@@ -4,6 +4,6 @@ description: Automatic Solutions wordpress helm chart for k8s
 
 type: application
 
-version: 0.6.0
+version: 0.7.0
 
 appVersion: 5.3.2
